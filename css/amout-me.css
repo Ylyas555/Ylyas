@@ -1,0 +1,130 @@
+
+img{
+    width: 170px;
+    height: 100px;
+   
+}
+body {
+    background-color: antiquewhite;
+}
+
+textarea, input {
+    background-color: rgb(253, 244, 230);
+    border-radius: 3px;
+}
+input { 
+    border: solid;
+    
+    border-color: rgba(71, 72, 72, 0.553);
+    color:rgba(54, 55, 55, 0.553) ;
+}
+input:hover {
+    background-color: bisque;
+}
+.header {
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    row-gap: 10px;
+    column-gap: 10px; 
+}
+.first{
+    display: grid;
+    margin-right: 400px;
+}
+a {
+    text-decoration: none;
+    color: rgb(3, 42, 3);
+    font-weight: bold;
+}
+.button:hover {
+    background-color: rgba(206, 88, 48, 0.826);
+    border-radius: 2px;
+}
+a:hover{
+    color: rgb(178, 66, 25);
+}
+
+p{
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(3, 42, 3);
+    text-indent: 20px;
+    margin-top: 15px;
+}
+button{
+    background-color:antiquewhite;
+    border: none;
+    
+}
+
+li{
+    font-weight: bold;
+    color: rgb(3, 42, 3);
+}
+.nav-links {
+    display: grid; /* or flexbox if preferred */
+    grid-template-columns: 80px 82px 70px 95px; /* Adjusts to your needs */
+    column-gap: 10px;
+    row-gap: 5px;
+    height: 25px;
+    
+}
+
+
+
+.button1 {
+    display: inline-block; /* Allows setting width and height */
+   
+    background-color:rgb(238, 209, 167);
+    border: 1px;
+    border-radius: 4px; /* Optional: adds rounded corners */
+    text-align: center; /* Center align text */
+    width: 80px;
+    margin-left: 9px;
+    padding-left: 3px;
+    padding-right: 3px;
+    padding-top: 2px;
+}
+.button2 {
+    display: inline-block; /* Allows setting width and height */
+   
+    background-color: rgb(238, 209, 167);
+    border: none;
+    border-radius: 4px; /* Optional: adds rounded corners */
+    text-align: center; /* Center align text */
+    width: 82px;
+    margin-left: 9px;
+    padding-left: 3px;
+    padding-right: 3px;
+    padding-top: 2px;
+}
+
+
+
+.button3 {
+    display: inline-block; /* Allows setting width and height */
+   
+    background-color:rgb(238, 209, 167);
+    border: none;
+    border-radius: 4px; /* Optional: adds rounded corners */
+    text-align: center; /* Center align text */
+    width: 70px;
+    margin-left: 9px;
+    padding-left: 3px;
+    padding-right: 3px;
+    padding-top: 2px;
+
+}
+.button4 {
+    display: inline-block; /* Allows setting width and height */
+   
+    background-color: rgb(238, 209, 167);
+    border: none;
+    border-radius: 4px; /* Optional: adds rounded corners */
+    text-align: center; /* Center align text */
+    width: 95px;
+    margin-left: 9px;
+    padding-left: 3px;
+    padding-right: 3px;
+    padding-top: 2px;
+}

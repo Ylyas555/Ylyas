@@ -1,0 +1,22 @@
+
+div {
+    width: 100%;
+    max-width: 270px; 
+    height: auto; 
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 20px; 
+}
+
+img {
+    width: 100%; 
+    height: auto; 
+    border: 2px solid #898584;
+}
+@media (max-width: 480px) {
+    div {
+        width: 90%; 
+        max-width: none; 
+    }
+}
